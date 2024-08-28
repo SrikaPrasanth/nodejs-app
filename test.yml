@@ -1,0 +1,6 @@
+- tasks:
+    - block:
+        - name: install service
+          win_service:
+            name: web-server
+            state: started
