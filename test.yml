@@ -1,4 +1,5 @@
-- tasks:
+- hosts: all 
+  tasks:
     - block:
         - name: install service
           win_service:
