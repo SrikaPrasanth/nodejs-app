@@ -2,6 +2,6 @@
   tasks:
     - block:
         - name: install service
-          win_service:
-            name: web-server
-            state: started
+          ansible.windows.win_file:
+            src: C:\Users\Prasanth\OneDrive\Desktop\my-app\okay.yml
+            state: file
