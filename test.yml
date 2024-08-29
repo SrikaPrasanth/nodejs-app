@@ -3,5 +3,5 @@
     - block:
         - name: install service
           ansible.windows.win_file:
-            src: C:\Users\Prasanth\OneDrive\Desktop\my-app\okay.yml
+            path: C:\Users\Prasanth\OneDrive\Desktop\my-app\okay.yml
             state: file
